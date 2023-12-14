@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -E -o "$CFILE_NAME.i" "$CFILE"
+gcc $CFILE -o c -Wall -Werror -Wextra -pedantic -std=gnu89
