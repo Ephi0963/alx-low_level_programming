@@ -5,8 +5,7 @@
  */
 int main(void)
 {
-	int n;
-	if (n > 0)
+	if (int n > 0)
 	{
 		printf("is positive");
 	}
