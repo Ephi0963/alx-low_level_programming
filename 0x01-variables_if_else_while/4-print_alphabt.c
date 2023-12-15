@@ -19,6 +19,7 @@ int main(void)
 				continue;
 			}
 			putchar(sigma);
+			sigma++;
 		}
 		putchar('\n');
 		return (0);
