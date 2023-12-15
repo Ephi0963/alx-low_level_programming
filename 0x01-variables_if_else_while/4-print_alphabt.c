@@ -12,10 +12,12 @@ int main(void)
 		{
 			if (sigma == 'e')
 			{
+				sigma++;
 				continue;
 			}
 			if (sigma == 'q')
 			{
+				sigma++;
 				continue;
 			}
 			putchar(sigma);
