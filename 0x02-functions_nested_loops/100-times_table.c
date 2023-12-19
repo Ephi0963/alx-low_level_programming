@@ -1,4 +1,4 @@
-#include "notrebloh.h"
+#include "main.h"
 /**
  * print_times_table - takes an input and prints out the times
  * @n: int type
