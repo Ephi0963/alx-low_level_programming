@@ -1,13 +1,17 @@
-#include  "notrebloh.h"
-/**
- * reset_to_98 - updates values
- *@n: int type
- *
- */
+#include "main.h"
 
-void reset_to_98(int *n)
+/**
+ * swap_int - change the values of ints
+ * @a: int type
+ * @b: int type
+ * Return: Return swapped values
+ */
+void swap_int(int *a, int *b)
 {
-	*n = 98;
-	reset_to_98
+	int c;
+
+	c = *a;
+	*a = *b;
+	*b = c;
 }
 
